@@ -1,0 +1,38 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (min-width:600px){
+body{
+    background: lavender;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+header{
+    background: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+}
+.green{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row; 
+    padding: 50px;
+}
+.orange{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    padding: 50px;
+}
+p,h3,img{
+    margin: 10px;
+}}
